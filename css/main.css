@@ -1,0 +1,28 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 48px 70px;
+}
+
+.conteudo .produto {
+    margin: 0 97px;
+}
+
+.conteudo .produto .title_prod {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.conteudo .produto .valor_prod {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5CA720;
+}
+
+.conteudo .produto .cifrao {
+    color: #161616;
+    font-size: 20px;
+}
+
