@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 31px;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.menu ul li a {
+    margin: 22.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #161616;
+    text-decoration: none;
+}
+
+.icons img {
+    margin: 18.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
