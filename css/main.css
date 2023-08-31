@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     padding: 48px 70px;
+    flex-wrap: wrap;
 }
 
 .conteudo .produto {
-    margin: 0 97px;
+    margin: 25px 97px;
 }
 
 .conteudo .produto .title_prod {

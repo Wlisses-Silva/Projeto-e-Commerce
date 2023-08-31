@@ -3,6 +3,10 @@
     justify-content: space-between;
     padding: 30px 70px 30px 70px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #ffff;
+    box-shadow: 2px 3px 3px aliceblue;
 }
 
 .nav .menu {
@@ -14,6 +18,12 @@
     margin-right: 22.5px;
 }
 
+.nav .menu li:hover {
+    transform: translateY(-5px);
+    transform: all 0.7s;
+    font-weight: bold;
+}
+
 .nav .menu li a {
     color: #161616;
     text-decoration: none;
@@ -22,4 +32,10 @@
 .icons img {
     margin-left: 18.5px;
     margin-right: 18.5px;
+}
+
+.icons img:hover {
+    transform: translateY(-5px);
+    transform: all 0.7s;
+    font-weight: bold;
 }
