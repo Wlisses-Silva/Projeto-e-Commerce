@@ -9,6 +9,10 @@
     box-shadow: 2px 3px 3px aliceblue;
 }
 
+.nav .logo {
+    cursor: pointer;
+}
+
 .nav .menu {
     display: flex;
 }
@@ -16,6 +20,17 @@
 .nav .menu li {
     margin-left: 22.5px;
     margin-right: 22.5px;
+    position: relative;
+}
+
+.nav .menu li.selected::after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    border: 2.5px solid #5ca720;
+    width: 50%;
+    border-radius: 5px;
 }
 
 .nav .menu li:hover {
@@ -32,10 +47,5 @@
 .icons img {
     margin-left: 18.5px;
     margin-right: 18.5px;
-}
-
-.icons img:hover {
-    transform: translateY(-5px);
-    transform: all 0.7s;
-    font-weight: bold;
+    cursor: pointer;
 }
