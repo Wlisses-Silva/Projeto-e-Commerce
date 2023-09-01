@@ -1,0 +1,45 @@
+.first_box {
+    border-top: 1px solid #a5a1a1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_box .links {
+    margin: 30px 72px 30px; 
+}
+.first_box .links li {
+    margin-bottom: 10px;
+}
+
+.first_box h1 {
+    margin-right: 72px;
+    margin-top: 75px;
+}
+
+.second_box {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #a5a1a1;
+    
+}
+
+.second_box .social_media {
+    margin: 30px 72px;
+    gap: 3rem;
+    align-items: center;
+}
+
+.second_box .social_media img {
+    margin-right: 20px;
+}
+
+.second_box .payments {
+    margin: 30px 72px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.second_box .payments .icon {
+    margin-left: 25px;
+}
