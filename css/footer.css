@@ -17,9 +17,41 @@
     text-decoration: none;
     color: black;
 }
+
 .first_box h1 {
-    margin-right: 72px;
-    margin-top: 75px;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.newsletter h1 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.newsletter .form {
+    display: flex;
+    margin-right: 70px;
+}
+
+.newsletter .form .botao{
+    background-color: #51b248;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 34px;
+    border-color: none;
+    border-radius: 0px 7px 7px 0px;
+    height: 54px;
+} 
+.newsletter .form .email {
+    height: 54px;
+    border: 0.7px solid #d9d9d9;
+    background-color: #f8f8f8;
+    width: 395px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .second_box {
