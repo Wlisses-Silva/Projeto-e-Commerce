@@ -7,12 +7,16 @@
 }
 
 .first_box .links {
-    margin: 30px 72px 30px; 
+    margin: 30px 72px 30px;
 }
 .first_box .links li {
     margin-bottom: 10px;
 }
 
+.first_box .links li a{
+    text-decoration: none;
+    color: black;
+}
 .first_box h1 {
     margin-right: 72px;
     margin-top: 75px;
@@ -29,6 +33,7 @@
     margin: 30px 72px;
     gap: 3rem;
     align-items: center;
+    cursor: pointer;
 }
 
 .second_box .social_media img {
@@ -44,4 +49,5 @@
 
 .second_box .payments .icon {
     margin-left: 25px;
+    cursor: pointer;
 }
